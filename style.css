@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.mid {
+    width: 80%;
+    margin: auto;
+}
+.menu ul {
+    text-align: right;
+}
+.menu ul li {
+    display: inline-block;
+}
+.menu ul li a {
+    color: #3C3C3C;
+    font-size: 16px;
+    padding: 10px 20px;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
