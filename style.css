@@ -114,30 +114,46 @@ body {
 
 /* project section design start */
 .project {
+    background: #f8f8f8;
     overflow: hidden;
-    margin-bottom: 100px;
+    padding: 100px 0 150px 0;
+    
 }
 .project h1 {
     text-align: center;
     font-size: 50px;
     color: orange;
     font-family: 'Bebas Neue', cursive;
+    margin: 0;
 }
 .project .letest {
     color:  #363958;
     
 }
 .project-box {
-    width: 30%;
+    margin-top: 80px;
+    width: 27%;
     display: inline-block;
     text-align: center;
     margin-right: 20px;
-    box-shadow: 10px 10px 40px gray;
-}
-.project-box:last-child {
-    margin-right: 0;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 10px;
+    padding: 10px;
 }
 .project-box img {
     width: 100%;
+}
+.project-box h2 {
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    color: #FF8367;
+}
+.project-box p{
+    color: #3C3C3C;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: left;
 }
 /* project section design end */
